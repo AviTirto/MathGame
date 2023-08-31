@@ -1,0 +1,36 @@
+digraph {
+    "A" -> "B" [weight=15];
+    "A" -> "E" [weight=10];
+    "B" -> "A" [weight=15];
+    "B" -> "F" [weight=17];
+    "B" -> "C" [weight=16];
+    "C" -> "B" [weight=16];
+    "C" -> "G" [weight=13];
+    "C" -> "D" [weight=20];
+    "D" -> "C" [weight=20];
+    "D" -> "H" [weight=21];
+    "E" -> "A" [weight=10];
+    "E" -> "F" [weight=31];
+    "E" -> "I" [weight=18];
+    "F" -> "B" [weight=17];
+    "F" -> "E" [weight=31];
+    "F" -> "G" [weight=35];
+    "F" -> "J" [weight=29];
+    "G" -> "C" [weight=13];
+    "G" -> "F" [weight=35];
+    "G" -> "H" [weight=14];
+    "G" -> "K" [weight=25];
+    "H" -> "D" [weight=21];
+    "H" -> "G" [weight=14];
+    "H" -> "L" [weight=23];
+    "I" -> "E" [weight=18];
+    "I" -> "J" [weight=19];
+    "J" -> "I" [weight=19];
+    "J" -> "F" [weight=29];
+    "J" -> "K" [weight=26];
+    "K" -> "J" [weight=26];
+    "K" -> "G" [weight=25];
+    "K" -> "L" [weight=11];
+    "L" -> "H" [weight=23];
+    "L" -> "K" [weight=11];
+}
